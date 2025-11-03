@@ -14,7 +14,7 @@
         "./lib": "./lib.json",
         "./vue": "./vue.json"
     },
-    "script": {
+    "scripts": {
         "pub": "pnpm new-version -s npm publish"
     },
     "devDependencies": {
