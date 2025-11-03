@@ -15,7 +15,7 @@
         "./vue": "./vue.json"
     },
     "scripts": {
-        "pub": "pnpm new-version -s npm publish"
+        "pub": "pnpm new-version -s npm publish --access public"
     },
     "devDependencies": {
         "@escral/versioning": "^1.5"
