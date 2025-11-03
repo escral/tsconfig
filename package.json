@@ -1,0 +1,23 @@
+{
+    "name": "@escral/tsconfig",
+    "version": "0.2.0",
+    "type": "module",
+    "files": [
+        "*.json",
+        "README.md"
+    ],
+    "exports": {
+        ".": "./base.json",
+        "./base": "./base.json",
+        "./browser": "./browser.json",
+        "./cli": "./cli.json",
+        "./lib": "./lib.json",
+        "./vue": "./vue.json"
+    },
+    "script": {
+        "pub": "pnpm new-version -s npm publish"
+    },
+    "devDependencies": {
+        "@escral/versioning": "^1.5"
+    }
+}
