@@ -2,7 +2,6 @@
     "extends": "./base.json",
     "display": "@escral/tsconfig/cli",
     "compilerOptions": {
-        "target": "ES2022",
         "lib": [
             "ES2022"
         ],

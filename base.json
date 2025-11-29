@@ -5,6 +5,7 @@
         "strict": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
+        "target": "ES2022",
         "module": "ESNext",
         "moduleResolution": "bundler",
         "resolveJsonModule": true,
